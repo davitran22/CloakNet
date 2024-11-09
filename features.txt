@@ -1,0 +1,55 @@
+**************************************Button feature********************************:
+/* Button positioning*/
+.navbar__btn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+/* Button display*/
+.Button
+{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    text-decoration: none;
+    padding: 8px 3px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: red;
+    color: white;
+}
+
+/* while we are hovering over the button*/
+.Button:hover
+{
+    background: lightcoral;
+    transition: all 0.3s ease;
+
+}
+
+
+************************************Button design 1*************************************
+Backup code for website logo
+#navbar__logo /* Logo settings*/
+{
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb1 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    
+}

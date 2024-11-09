@@ -1,0 +1,99 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding : 0;
+    font-family: "Kumbh sans", sans-serif;
+}
+
+/* navigation bar settings*/
+.navbar
+{
+    background: whitesmoke; /* lightslategray or whitesmoke*/
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar__container
+{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+
+
+}
+
+
+#navbar__logo
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: #DC143C;
+    text-align: center;
+    margin: 20px 0;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* logo settings*/
+.fa-lock
+{
+    margin-right: 0.5rem;
+    color: red;
+}
+
+.fa-user-shield
+{
+    margin-right: 0.5rem;
+    color: #DC143C;
+}
+
+.navbar__menu
+{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+/* move text to bottom of page*/
+.navbar__below
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/* navrigation bar title settings ex Home | Why us */
+.navbar__links
+{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    
+}
+
+.navbar__links:hover
+{
+    background: #DCDCDC;
+    transition: all 0.2s ease;
+}
+
