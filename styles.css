@@ -1,4 +1,4 @@
-
+/* Credits to */
 
 *{
     box-sizing: border-box;
@@ -35,7 +35,7 @@
 
 }
 
-
+/*CloakNet logo*/
 #navbar__logo
 {
     font-size: 30px;
@@ -95,5 +95,57 @@
 {
     background: #DCDCDC;
     transition: all 0.2s ease;
+}
+
+
+/**/
+.upload_file_btn button
+{
+    background-color: #DC143C;  /* Blue background for the buttons */
+    color: white;               /* White text */
+    padding: 8px 14px;         /* Increased space around the text */
+    border: 2px solid #DC143C; /**/
+    border-radius: 25px;         /* rounded corners */
+    cursor: pointer;           /* Pointer cursor on hover */
+    font-size: 16px;            /* Larger font size */
+    margin: 5px;  
+}
+
+.password_btn button
+{
+    background-color: #DC143C;  /* Blue background for the buttons */
+    color: white;               /* White text */
+    padding: 8px 14px;         /* Increased space around the text */
+    border: 2px solid #DC143C; /**/
+    border-radius: 25px;         /* rounded corners */
+    cursor: pointer;           /* Pointer cursor on hover */
+    font-size: 16px;            /* Larger font size */
+    margin: 5px;  
+}
+
+
+label
+{
+    font-size: 18px;            /* Larger font size */
+    color: black;                /* Dark gray color for text */
+    font-weight: bold;          /* Make the text bold */
+    margin-bottom: 8px;         /* Add some space below the label */
+    text-align: left;           /* Align the label text to the left */
+    padding: 10px 0;             /* Add vertical padding for spacing */
+    font-family: 'Arial', sans-serif;  /* Set the font family */
+}
+
+/*center the upload file and password form goto: store_file.html*/
+form
+{
+    padding: 50px;              /* Padding inside the form */
+    border-radius: 3px;         /* Rounded corners */
+    max-width: 450px;           /* Maximum width of the form */
+    width: 100%;                /* Make it responsive */
+    text-align: middle;           /* Left-align text inside the form */
+    margin: 0 auto;             /* Horizontally center the form */
+    position: relative;         /* Make sure the form stays in the flow of the page */
+    top: 90%;                   /* Position the form down from the top */
+    
 }
 
