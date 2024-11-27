@@ -1,5 +1,4 @@
-<!-- Add a button to the center of the screen maybe and href it to this file-->
-
+<!-- Main page -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CloakNet</title> <!-- Title of the website-->
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"> <!-- css file-->
 
     <!-- Adapted from Font Awesome library-->
+     <!-- Logo for website -->
      <!--insert credits to there page here-->
     <script src="https://kit.fontawesome.com/9aa36e934b.js" crossorigin="anonymous"></script> 
 
@@ -17,11 +17,11 @@
     
 </body>
 
-    <nav class="navbar">
-        <div class="navbar__container">
+    <nav class="navbar"> <!--Navigation bar-->
+        <div class="navbar__container"> <!--Sections within the navigation bar-->
 
             <!-- inport a logo -->
-            <a href="http://127.0.0.1:5500/index.html" id="navbar__logo"><i class="fa-solid fa-file-shield"></i> CloakNet</a>
+            <a href="http://127.0.0.1:5500/main.html" id="navbar__logo"><i class="fa-solid fa-file-shield"></i> CloakNet</a>
 
             <div class="navbar__toggle" id="mobile-menu">
                 <span class="bar"></span>
@@ -32,9 +32,6 @@
             </div>
             <ul class="navbar__menu"> <!---->
 
-                <li class="navbar__item">
-                    <a href="http://127.0.0.1:5500/index.html" class="navbar__links">Home</a>
-                </li> <!-- end of navbar section-->
 
                 <li class="navbar__item">
                     <a href="store_file.html" class="navbar__links">New item</a>
@@ -48,45 +45,27 @@
                     <a href="contact.html" class="navbar__links">Contact Defender</a>
                 </li>
 
+                <li class="navbar__item"> <!--TODO: make modifications to this -->
+                    <a href="index.html" class = "navbar__links" > Log out</a>
+                </li>
+
                 <li class="navbar__below"> <!--TODO: make modifications to this -->
                     <a href="/" class = "navbar__below" > Copyright</a>
                 </li>
 
-        
+
             </ul>
         </div>
     </nav>
 
-    <p class = "text">Select one of the option below</p>
-
-    <form action = "" method = "get">
-
-        <label for="myfile">Select file:</label>
-        <input type="file" id="myfile" name="myfile">
-        <br><br>
-
-        <div class="upload_file_btn">
-            <button type="Upload file" onclick = "alert('New file uploaded')">Upload File</button>
-            
-        </div>
-       
-        <br><br>
-
-    
-        <label for="password">Enter password:</label>
-        <input text="file" id="mypass" name="mypass">
-        <br><br>
-
-        <div class="password_btn">
-            <button type="Upload file" onclick = "alert('Password saved')">Save Password</button>
-        </div>
+    <p class = "msg" > Keep your File and Passwords safe now </p>
         
     
-    
-    </form>
-
-
 </body>
     
 </html>
+
+<!-- DO AUTHENTICATE WITH PHONE NUMBER BECAUSE IT COSTS MONEY-->
+
+
 

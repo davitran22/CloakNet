@@ -7,6 +7,20 @@
     font-family: "Kumbh sans", sans-serif;
 }
 
+/* Delete?*/
+.navbar_login
+{
+    background: red; /* lightslategray or whitesmoke*/
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
 /* navigation bar settings*/
 .navbar
 {
@@ -21,6 +35,19 @@
     z-index: 999;
 }
 
+/*Delete?*/
+.login_container
+{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
 .navbar__container
 {
     display: flex;
@@ -33,6 +60,19 @@
     padding: 0 50px;
 
 
+}
+
+#login_logo
+{
+    font-size: 25px;
+    font-weight: bold;
+    color: #DC143C;
+    text-align: center;
+    margin: 35px 30px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 20px; /* Move the logo down */
 }
 
 /*CloakNet logo*/
@@ -149,3 +189,9 @@ form
     
 }
 
+.msg
+{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}

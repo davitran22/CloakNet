@@ -1,0 +1,51 @@
+<!-- START OF THE WEBSITE -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title> <!-- Title of the website-->
+
+    <link rel="stylesheet" href="styles.css"> <!-- css file-->
+
+    <!-- Adapted from Font Awesome library-->
+     <!-- Logo for website -->
+     <!--insert credits to there page here-->
+    <script src="https://kit.fontawesome.com/9aa36e934b.js" crossorigin="anonymous"></script> 
+
+</head>
+    
+</body>
+
+ <!-- inport a logo -->
+ <a href="http://127.0.0.1:5500/index.html" id="login_logo"><i class="fa-solid fa-file-shield"></i> CloakNet</a>
+
+<br><br>
+<br><br>
+
+
+ <!--Phone.Email code-->
+ <div class="pe_verify_email" data-client-id="12033962181346031400"><script src="https://www.phone.email/verify_email_v1.js" async></script></div>
+ <script>
+     async function phoneEmailReceiver(userObj) {
+         var user_json_url = userObj.user_json_url;
+ 
+         // display success message
+         alert('Email Verification Successful!');
+ 
+         // redirect the user to page
+         window.location.href = 'main.html';
+     }
+ </script> <!--End of Phone.Email code-->
+    
+        
+    
+</body>
+    
+</html>
+
+<!-- DO AUTHENTICATE WITH PHONE NUMBER BECAUSE IT COSTS MONEY-->
+
+
+     
