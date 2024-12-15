@@ -109,14 +109,7 @@
 }
 
 /* move text to bottom of page*/
-.navbar__below
-{
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    text-align: center;
-}
+/*.navbar_below*/
 
 /* navrigation bar title settings ex Home | Why us */
 .navbar__links
@@ -133,12 +126,13 @@
 
 .navbar__links:hover
 {
-    background: #DCDCDC;
+    
+    color: #DC143C;
     transition: all 0.2s ease;
 }
 
 
-/**/
+/*store_file.html*/
 .upload_file_btn button
 {
     background-color: #DC143C;  /* Blue background for the buttons */
@@ -163,6 +157,16 @@
     margin: 5px;  
 }
 
+.upload_file_btn button:hover
+{
+   
+   background-color: red;
+}
+
+.password_btn button:hover
+{
+    background-color: red;
+}
 
 label
 {
@@ -189,9 +193,152 @@ form
     
 }
 
+
+
+/*main.html*/
 .msg
 {
-    font-size: 35px;
+    
+    font-size: 40px;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
+}
+
+.msg2
+{
+    
+    font-size: 35px;
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+.msg3
+{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.msg4
+{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.msg5
+{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.msg6
+{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.msg7
+{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*index.html*/
+.welcome_msg
+{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body
+{
+    background-color: white;
+}
+
+/*index.html*/
+img
+{
+    width: 60%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#index_file
+{
+    background-color: lightgrey;
+}
+
+.text1
+{
+    color: black;
+}
+
+.text
+{
+    font-size: 20px;
+    
+}
+
+#loginHelp
+{
+    font-weight: bold;
+}
+
+/*Button from main.html*/
+#storeFile
+{
+    background-color: #DC143C;  /* background for the button */
+    color: white;               /* White text */
+    padding: 8px 14px;         /* Increased space around the text */
+    border: 2px solid red; /**/
+    border-radius: 25px;         /* rounded corners */
+    cursor: pointer;           /* Pointer cursor on hover */
+    font-size: 16px;            /* Larger font size */
+    margin: 5px;  
+}
+
+/**/
+#storeFile:hover
+{
+    background: linear-gradient(45deg, #2196F3, #FF5722);
+    
+}
+
+.footer
+{
+    display: flex;
+    justify-content: space-around; /* Ensures even spacing between items */
+    align-items: center; /* Aligns items vertically in the center */
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    
+    background-color: lightslategray;
+    z-index: 10;
+    text-align: center;
+    gap: 20px; /* Adds consistent spacing between items */
+    
+}
+
+.footer a
+{
+    color: purple;
+}
+
+.footer a:hover
+{
+    color:blue;
+}
+
+.msg4
+{
+    font-family: 'Nunito', sans-serif;
+
 }
