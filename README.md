@@ -1,5 +1,5 @@
 # CloakNet
-Semester long project for the class Cpts 327. The application CloakNet allows a user to store files and passwords securley. It also supports user authentication via email.
+Semester long project for the class Cpts 327. The application CloakNet allows a user to store files and passwords securley. It also supports user authentication via email. **Note this is still a work in progress.**
 ## Table of Contents
 - [Preview](#preview)
 - [Instructions](#instructions)
